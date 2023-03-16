@@ -1,0 +1,388 @@
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+body {
+  width: 1440px;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  gap: 16px;
+  width: 1336px;
+  height: 178px;
+  left: 51.999999999999545px;
+  top: 80px;
+  border-radius: 0px;
+  padding: 0px 52px 0px 52px;
+}
+
+header nav .maintext {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+header nav .shortext {
+  width: 716px;
+  height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #282828;
+}
+
+header nav h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: -1px;
+  width: 716px;
+  height: 62px;
+  color: #282828;
+}
+
+header nav .longtext {
+  width: 760px;
+  height: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #5f6980;
+}
+
+section {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1336px;
+  height: 908px;
+  top: 306px;
+  left: 52px;
+  gap: 48px;
+}
+
+.firstsection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 100%;
+  height: 430px;
+}
+
+.secondsection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 100%;
+  height: 430px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 140px;
+  height: 36px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.news1,
+.news2,
+.news3,
+.news4,
+.news5,
+.news6,
+.news7,
+.news8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 0px 16px;
+  gap: 16px;
+  width: 310px;
+  height: 430px;
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+}
+
+.name {
+  width: 278px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #282828;
+}
+
+.engineer {
+  width: 278px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3e3e59;
+}
+
+.loremtext {
+  width: 278px;
+  height: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5f6980;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  height: 512px;
+  width: 1654px;
+  left: -107.00000000000045px;
+  top: 1262px;
+  border-radius: 0px;
+  background: rgba(83, 83, 83, 0.33);
+}
+
+.footertext p {
+  position: absolute;
+  width: 306.05px;
+  height: 73px;
+  left: 176px;
+  top: 204px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #535353;
+}
+
+.footerpic {
+  position: absolute;
+  height: 64px;
+  width: 100px;
+  left: 164px;
+  top: 108px;
+  border-radius: 0px;
+}
+
+.weblinks h2 {
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 627px;
+  top: 108px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #1e1e1e;
+}
+
+.weblinks h3 {
+  position: absolute;
+  width: 92px;
+  height: 48px;
+  left: 627px;
+  top: 187px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.weblinks h4 {
+  position: absolute;
+  width: 92px;
+  height: 48px;
+  left: 627px;
+  top: 235px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.weblinks h5 {
+  position: absolute;
+  width: 108px;
+  height: 48px;
+  left: 627px;
+  top: 283px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.services h2 {
+  position: absolute;
+  width: 85px;
+  height: 24px;
+  left: 1023px;
+  top: 108px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #1e1e1e;
+}
+
+.services h3 {
+  position: absolute;
+  width: 199px;
+  height: 48px;
+  left: 1017px;
+  top: 187px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.services h4 {
+  position: absolute;
+  width: 199px;
+  height: 48px;
+  left: 1017px;
+  top: 235px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.services h5 {
+  position: absolute;
+  width: 199px;
+  height: 48px;
+  left: 1017px;
+  top: 283px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.languages h2 {
+  position: absolute;
+  width: 107px;
+  height: 24px;
+  left: 1363px;
+  top: 108px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #1e1e1e;
+}
+
+.languages h3 {
+  width: 48px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.languages a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 16px;
+  gap: 10px;
+  text-decoration: none;
+  position: absolute;
+  width: 80px;
+  height: 45px;
+  left: 1363px;
+  top: 190.45px;
+
+  background: #054a68;
+}
